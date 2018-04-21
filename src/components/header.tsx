@@ -10,14 +10,14 @@ const logoHeight = 140 / 2
 
 const Container = styled.div`
   background: #212c43;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   font-family: Roboto Condensed, Helvetica, Arial, sans-serif;
   font-weight: 300;
 `
 
 const MiddleContainer = styled.div`
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 864px;
   padding: 16px;
 `
 
@@ -35,7 +35,7 @@ const Nav = styled.nav`
   overflow-y: auto;
   top: 0;
   bottom: 0;
-  background-color: #3367d6;
+  background-color: rgb(56,155,213);
 `
 const NavUl = styled.ul`
   display: flex;
@@ -99,7 +99,7 @@ const Header = ({ siteTitle }: { siteTitle: string }) => (
         />
       </Link>
       <SubHeader>
-        Software Tools and Services for <b>Traders</b>
+        Software Tools and Services for Traders
       </SubHeader>
     </MiddleContainer>
     <Nav>
