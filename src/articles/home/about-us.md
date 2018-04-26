@@ -1,5 +1,6 @@
 ---
-title: About Us
+title: "About Us"
+date: "2015-01-01"
 ---
 # About Us
 
@@ -23,6 +24,6 @@ Financial Algorithms specializes in development and back testing of automatic st
 Final also provides the leading solutions for industry leading tools like
 NinjaTrader, TradeStation, MetaTrader, MultiCharts, eSignal and more.
 
-[Services...](/services.html)
+[Services...](/services/)
 
-[Products...](/products.html)
+[Products...](/products/)

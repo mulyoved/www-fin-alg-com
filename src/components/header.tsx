@@ -35,7 +35,7 @@ const Nav = styled.nav`
   overflow-y: auto;
   top: 0;
   bottom: 0;
-  background-color: rgb(56,155,213);
+  background-color: #389bd5;
 `
 const NavUl = styled.ul`
   display: flex;
@@ -106,10 +106,10 @@ const Header = ({ siteTitle }: { siteTitle: string }) => (
       <NavUl>
 
         <NavItem to="/" name="Home" icon={<HomeIcon />}/>
-        <NavItem to="/services.html" name="Services" icon={<ServiceIcon />}/>
-        <NavItem to="/products.html" name="Products" icon={<ProductsIcon />}/>
-        <NavItem to="/resources.html" name="Resources" icon={<ResurcesIcon />}/>
-        <NavItem to="/contact.html" name="Contact" icon={<ContactIcon />}/>
+        <NavItem to="/services/" name="Services" icon={<ServiceIcon />}/>
+        <NavItem to="/products/" name="Products" icon={<ProductsIcon />}/>
+        <NavItem to="/resources/" name="Resources" icon={<ResurcesIcon />}/>
+        <NavItem to="/contact/" name="Contact" icon={<ContactIcon />}/>
       </NavUl>
     </Nav>
   </Container>

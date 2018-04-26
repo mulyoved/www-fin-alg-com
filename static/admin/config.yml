@@ -1,0 +1,26 @@
+backend:
+    name: github
+    repo: mulyoved/www-fin-alg-com
+
+display_url: 'http://staging-www.fin-alg.com'
+media_folder: assets
+
+collections:
+    -
+        name: 'marketbalance faq'
+        label: 'MarketBalance FAQ'
+        folder: market-balance-faqs
+        create: true
+        fields:
+            - {label: Question, name: title, widget: string, tagname: h1}
+            - {label: Answer, name: body, widget: markdown}
+            - {label: Order, name: order, widget: number, valueType: "int"}
+    -
+        name: 'tpochart faq'
+        label: 'TPOChart FAQ'
+        folder: tpochart-faqs
+        create: true
+        fields:
+            - {label: Question, name: title, widget: string, tagname: h1}
+            - {label: Answer, name: body, widget: markdown}
+            - {label: Order, name: order, widget: number, valueType: "int"}

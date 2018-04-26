@@ -2,8 +2,11 @@ import * as React from 'react'
 import * as PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 
-import Header from '../components/header'
-import './index.css'
+import Header from '../components/header';
+import Footer from '../components/footer';
+import './index.css';
+
+require('typeface-roboto-condensed');
 
 const Layout = ({ children, data }) => (
   <div>
@@ -30,6 +33,7 @@ const Layout = ({ children, data }) => (
     >
       {children()}
     </div>
+    <Footer />
   </div>
 )
 

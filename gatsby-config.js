@@ -25,21 +25,26 @@ module.exports = {
             },
           },
           `gatsby-remark-copy-linked-files`,
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "nofollow noopener noreferrer"
+            }
+          }
         ],
       },
     },
+
 
     'gatsby-transformer-sharp',
     `gatsby-plugin-sharp`,
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
+
+    `gatsby-plugin-catch-links`,
+
     'gatsby-plugin-typescript',
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: ["Roboto Condensed\:300,400,700"],
-      },
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -54,5 +59,6 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
+    `gatsby-plugin-netlify-cms`,
   ],
 }

@@ -1,5 +1,4 @@
 import * as React from 'react'
-import Link from 'gatsby-link'
 import Article from '../components/article'
 import styled from 'styled-components'
 
@@ -7,32 +6,42 @@ const Container = styled.div`
     margin: 0;    
 `;
 
+const TwoColumn = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+`;
+
 const IndexPage = ({data}) => {
   console.log(data);
 
-  const { markdownRemark } = data; // data.markdownRemark holds our post data
-  const { frontmatter, html } = markdownRemark;
+  const { allMarkdownRemark } = data; // data.markdownRemark holds our post data
+  const { edges } = allMarkdownRemark;
 
   return (
     <Container>
-
-      <Article html={html} />
-
-      <h1>Hi people v5</h1>
-
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
-      <Link to="/page-2/">Go to page 2</Link>
+      <Article html={edges[0].node.html} />
+      <TwoColumn>
+        <Article html={edges[1].node.html} mini={true}/>
+        <Article html={edges[2].node.html} mini={true}/>
+      </TwoColumn>
     </Container>
   );
 }
 
 export default IndexPage
 
-export const query = graphql`  
+export const query = graphql`
     query BlogPostByPath {
-        markdownRemark(fileAbsolutePath: {regex:"/.*src\\/articles\\/about-us.md/"}) {
-            html
+        allMarkdownRemark(
+            sort: { fields: [frontmatter___date] },
+            filter: {fileAbsolutePath: {regex: "/.*src/articles/home/.*.md/"}}
+        ) {
+            edges {
+                node {
+                    html
+                }
+            }
         }
     }
 `;
