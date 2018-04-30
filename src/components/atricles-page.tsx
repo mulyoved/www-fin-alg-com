@@ -14,8 +14,6 @@ const ArticlesPage = ({ data }: IProp) => {
   const { allMarkdownRemark } = data // data.markdownRemark holds our post data
   const { edges } = allMarkdownRemark
 
-  console.log("### data", data)
-
   const articles = edges.map((edge: any, idx: number) => (
     <Article key={idx} html={edge.node.html} />
   ))
