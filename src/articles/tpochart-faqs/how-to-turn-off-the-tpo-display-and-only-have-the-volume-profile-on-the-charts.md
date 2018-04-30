@@ -6,4 +6,4 @@ order: 11
 ---
 Set parameter #02 Show TPO = False
 
-![Hide TPO](hide_tpo2.png)
+![Hide TPO](/media/hide_tpo2.png)
