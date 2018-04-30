@@ -6,7 +6,7 @@ order: 10
 
 To configure the session times and optionally split the profile for day and night session, use the NinjaTrader session manager to configure the sessions times.
 
-![Session Template](/media/selectsessiontemplate.png")
+![Session Template](/media/selectsessiontemplate.png)
 
 use this session template when you open the chart, TPOChart will use the session information and will build a profile for each session
 
