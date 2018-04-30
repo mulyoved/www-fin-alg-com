@@ -7,4 +7,4 @@ This is not directly supported but you can:
 * Display profile for say 180 days back (paramter Session Type = DaysBack and Session Value = 180)
 * Merge profiles manually
 
-![Days Back](/media/daysback.png")
+![Days Back](/media/daysback.png)
