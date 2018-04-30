@@ -3,13 +3,14 @@ backend:
     repo: mulyoved/www-fin-alg-com
 
 display_url: 'http://staging-www.fin-alg.com'
-media_folder: assets
+media_folder: src/assets
+public_folder: /assets
 
 collections:
     -
         name: 'marketbalance faq'
         label: 'MarketBalance FAQ'
-        folder: market-balance-faqs
+        folder: src/articles/market-balance-faqs
         create: true
         fields:
             - {label: Question, name: title, widget: string, tagname: h1}
@@ -18,7 +19,7 @@ collections:
     -
         name: 'tpochart faq'
         label: 'TPOChart FAQ'
-        folder: tpochart-faqs
+        folder: src/articles/tpochart-faqs
         create: true
         fields:
             - {label: Question, name: title, widget: string, tagname: h1}
