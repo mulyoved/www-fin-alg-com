@@ -22,4 +22,4 @@ Select the bars by click on them
 
 Use the Shift and Mouse scroll wheel to change the bars Z order until they plot above the graphics
 
-!\[zorder3]("/media/zorder3.png")
+![zorder](/media/zorder3.png)
