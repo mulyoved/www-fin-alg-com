@@ -4,7 +4,7 @@ date: "2017-01-01"
 ---
 # TrueData™
 
-![TrueData](./TrueData.png)
+![TrueData](./resources/TrueData.png)
 
 
 [TrueData™ Financial Information Pvt Ltd](http://truedata.in/) , provides real-time market data and an increasing number of decision support & trading tools for active traders and financial institutions in India.

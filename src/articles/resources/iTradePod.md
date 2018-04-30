@@ -4,7 +4,7 @@ date: "2018-01-01"
 ---
 # iTradePod
 
-![iTradePod](./iTradePod_Logo_dkyfrd.jpg)
+![iTradePod](./resources/iTradePod_Logo_dkyfrd.jpg)
 
 iTradePod mentors traders to achieve financial independence.
 Since inception, iTradePod has been dedicated to achieving trader

@@ -4,7 +4,7 @@ date: "2017-01-01"
 ---
 # IQFeed
 
-![IQFeed](./IQFeed.png)
+![IQFeed](./resources/IQFeed.png)
 
 Professional Data Feed – Futures, Stocks, Forex and Options Data!
 

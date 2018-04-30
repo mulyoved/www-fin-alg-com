@@ -5,7 +5,7 @@ date: "2015-01-01"
 # About Us
 
 
-![logo](./Logo_final.svg)
+![logo](./home/Logo_final.svg)
 
 Financial Algorithms provide advance programming services for hedge funds and retail traders.
 Final employees have many years of programming experience and understand the high demands of the trading industry.

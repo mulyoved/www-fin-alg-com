@@ -4,7 +4,7 @@ date: "2015-01-01"
 ---
 # NinjaTrader
 
-![NinjaTrader](./NT7_RecommendedLogo.png)
+![NinjaTrader](./resources/NT7_RecommendedLogo.png)
 
 ### [Download NinjaTrader](http://ninjatrader.com/LP/VendorDemo/) & receive immediate FREE access to:
 

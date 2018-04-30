@@ -3,8 +3,8 @@ backend:
     repo: mulyoved/www-fin-alg-com
 
 display_url: 'http://staging-www.fin-alg.com'
-media_folder: src/assets
-public_folder: /assets
+media_folder: src/articles/assets
+public_folder: /articles/assets
 
 collections:
     -

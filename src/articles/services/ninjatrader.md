@@ -5,7 +5,7 @@ date: "2015-01-01"
 # NinjaTrader Programming
 
 
-![NinjaTrader](./ninjatrader_logo.png)
+![NinjaTrader](./services/ninjatrader_logo.png)
 
 In the last seven years, Final has invested in fully understanding NinjaTrader platform capabilities, and developed a technology that maximizes the NinjaTrader technology.
 

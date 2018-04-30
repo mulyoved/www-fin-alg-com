@@ -5,4 +5,4 @@ title: >-
 ---
 Set "Filter Data by Trade Size" = True and select the trade size in "Filter Trade Size"
 
-![Filter Data by Trade Size](/assets/mbblocksize.png)
+![Filter Data by Trade Size](/media/mbblocksize.png)
